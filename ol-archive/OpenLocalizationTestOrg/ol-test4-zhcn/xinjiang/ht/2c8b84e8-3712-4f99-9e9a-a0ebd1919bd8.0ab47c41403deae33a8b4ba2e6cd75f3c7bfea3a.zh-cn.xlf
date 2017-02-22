@@ -3,12 +3,12 @@
   <file datatype="xml" original="markdown" source-language="en-US" target-language="zh-cn">
     <header>
       <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-6be57c5" tool-company="Microsoft" />
-      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">2adec93ef4305184196521992daa377915c8aa14</xliffext:olfilehash>
+      <xliffext:olfilehash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">84e4b1eb4c5dde9a0f9bc11bf95c49890a4ca10f</xliffext:olfilehash>
       <xliffext:olfilepath xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">e2e\2c8b84e8-3712-4f99-9e9a-a0ebd1919bd8.md</xliffext:olfilepath>
       <xliffext:oltranslationpriority xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">ht</xliffext:oltranslationpriority>
       <xliffext:oltranslationtype xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">Human Translation</xliffext:oltranslationtype>
-      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">d61e84b9d7479190378507f897c02fc431ac6051</xliffext:olskeletonhash>
-      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">07fa6376dfc386f62aed61f76b90d8621ea62de3</xliffext:olxliffhash>
+      <xliffext:olskeletonhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">a2d5b0048b1e56ab82b8da62b70434dee3843015</xliffext:olskeletonhash>
+      <xliffext:olxliffhash xmlns:xliffext="urn:microsoft:content:schema:xliffextensions">b5192ac3da60ec9ef313f084bdbd36df31596428</xliffext:olxliffhash>
     </header>
     <body>
       <group id="content" extype="content">
@@ -16,7 +16,7 @@
           <source>OpenLocalization Workflow Test MarkDown</source><target>OpenLocalization Workflow Test MarkDown</target>
         </trans-unit>
         <trans-unit id="102" translate="yes" xml:space="preserve">
-          <source>40d3dac5-54a8-4e54-9630-d59acb0d4f39 thanks!</source><target>40d3dac5-54a8-4e54-9630-d59acb0d4f39 thanks!</target>
+          <source>7e120ae5-8220-45f2-8ca6-a292952a53c1 thanks!</source><target>7e120ae5-8220-45f2-8ca6-a292952a53c1 thanks!</target>
         </trans-unit>
       </group>
     </body>
