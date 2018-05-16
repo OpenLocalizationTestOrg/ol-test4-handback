@@ -1,0 +1,782 @@
+{
+	"filters": [{
+		"metadataExpression": "!audience.Contains(\"Application User\") && !ms.topic.Contains(\"index-page\") && ms.search.industry != \"Public sector\" && (ms.search.region.Contains(\"Global\") || ms.search.region.Contains(\"ja-jp\"))",
+		"priorities": [{
+			"priority": "developer_basic",
+			"locales": ["ja-jp"]
+		}]
+	},
+	{
+		"metadataExpression": "!audience.Contains(\"Application User\") && ms.topic.Contains(\"index-page\") && ms.search.industry != \"Public sector\" && (ms.search.region.Contains(\"Global\") || ms.search.region.Contains(\"ja-jp\"))",
+		"priorities": [{
+			"priority": "developer_premium",
+			"locales": ["ja-jp"]
+		}]
+	},
+	{
+		"metadataExpression": "!audience.Contains(\"Application User\")",
+		"priorities": [{
+			"priority": "developer_basic",
+			"locales": ["sr-cyrl-rs"]
+		}]
+	},
+	{
+		"files": ["articles/dev-itpro/includes/upgrade-banner.md",
+		"articles/dev-itpro/includes/environment-reprovision.md",
+		"articles/includes/upgrade-banner.md",
+		"articles/includes/environment-reprovision.md",
+		"articles/dev-itpro/includes/pre-release.md"],
+		"priorities": [{
+			"priority": "developer_premium",
+			"locales": ["ja-jp",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"files": ["articles/talent/TOC.md"],
+		"priorities": [{
+			"priority": "talent_premium",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "ms.search.scope.Contains(\"Talent\") && audience.Contains(\"Application User\") && ms.topic.Contains(\"index-page\")",
+		"priorities": [{
+			"priority": "talent_premium",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "ms.search.scope.Contains(\"Talent\") && audience.Contains(\"Application User\") && ms.search.region.Contains(\"global\") && (ms.topic != \"business-process\" || ms.topic != \"index-page\")",
+		"priorities": [{
+			"priority": "talent_basic",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "(audience.Contains(\"Application User\") && ms.topic.Contains(\"index-page\") && ms.search.industry != \"Public sector\")",
+		"priorities": [{
+			"priority": "new_premium",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"files": ["articles/index.md",
+		"articles/includes/banner.md",
+		"articles/includes/task-guide-banner.md",
+		"articles/fin-and-ops/includes/banner.md",
+		"articles/fin-and-ops/includes/task-guide-banner.md",
+		"articles/dev-itpro/includes/banner.md",
+		"articles/dev-itpro/includes/task-guide-banner.md",
+		"articles/financials/includes/banner.md",
+		"articles/financials/includes/task-guide-banner.md",
+		"articles/financials/includes/retail-name.md",
+		"articles/retail/includes/banner.md",
+		"articles/retail/includes/task-guide-banner.md",
+		"articles/supply-chain/includes/banner.md",
+		"articles/supply-chain/includes/task-guide-banner.md",
+		"articles/supply-chain/includes/retail-name.md",
+		"articles/talent/includes/banner.md",
+		"articles/talent/includes/task-guide-banner.md",
+		"articles/talent/includes/retail-name.md",
+		"articles/breadcrumb/toc.yml",
+		"articles/fin-and-ops/TOC.md",
+		"articles/dev-itpro/TOC.md",
+		"articles/retail/TOC.md",
+		"articles/includes/pre-release.md",
+		"articles/retail/includes/pre-release.md",
+		"articles/talent/includes/pre-release.md",
+		"articles/financials/includes/pre-release.md",
+		"articles/fin-and-ops/includes/pre-release.md",
+		"articles/supply-chain/includes/pre-release.md",
+		"articles/fin-and-ops/includes/release-notes.md",
+		"articles/retail/includes/release-notes.md"],
+		"priorities": [{
+			"priority": "new_premium",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && !ms.search.region.Contains(\"USA\") && ms.search.industry.Contains(\"Public sector\")",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fr-fr",
+			"da-dk",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && !ms.topic.Contains(\"business-process\") && !ms.search.region.Contains(\"USA\") && ms.search.industry.Contains(\"Public sector\")",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fr-fr",
+			"da-dk",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(\"global\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Austria) &&  ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["de-de",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Belgium) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fr-fr",
+			"nl-nl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Brazil) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["pt-br",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Canada) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fr-fr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(\"China (PRC)\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["zh-cn",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(\"Czech Republic\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["cs-cz",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Denmark) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["da-dk",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Estonia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["et-ee",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Finland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fi-fi",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(France) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fr-fr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Germany) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["de-de",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Hungary) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["hu-hu",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Iceland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["is-is",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Italy) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["it-it",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Japan) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["ja-jp",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Latvia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["lv-lv",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Lithuania) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["lt-lt",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Mexico) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["es-es",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Netherlands) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["nl-nl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Norway) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["nb-no",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Poland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["pl-pl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Russia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["ru-ru",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(\"Saudi Arabia\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["ar-sa",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Spain) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["es-es",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Switzerland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["fr-fr",
+			"de-de",
+			"it-it",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Sweden) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["sv-se",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Thailand) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["th-th",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.topic.Contains(\"business-process\") && ms.search.region.Contains(Turkey) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_bp_basic",
+			"locales": ["tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(\"global\") && title != \"Finance and Operations glossary\" && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["ar-sa",
+			"zh-cn",
+			"cs-cz",
+			"da-dk",
+			"nl-nl",
+			"et-ee",
+			"fi-fi",
+			"fr-fr",
+			"de-de",
+			"hu-hu",
+			"is-is",
+			"it-it",
+			"ja-jp",
+			"lv-lv",
+			"lt-lt",
+			"nb-no",
+			"pl-pl",
+			"pt-br",
+			"ru-ru",
+			"es-es",
+			"sv-se",
+			"th-th",
+			"tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Austria) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["de-de",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Belgium) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fr-fr",
+			"nl-nl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Brazil) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["pt-br",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Canada) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fr-fr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(\"China (PRC)\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["zh-cn",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(\"Czech Republic\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["cs-cz",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Denmark) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["da-dk",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Estonia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["et-ee",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Finland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fi-fi",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(France) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fr-fr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Germany) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["de-de",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Hungary) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["hu-hu",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Iceland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["is-is",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Italy) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["it-it",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Japan) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["ja-jp",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Latvia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["lv-lv",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Lithuania) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["lt-lt",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Mexico) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["es-es",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Netherlands) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["nl-nl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Norway) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["nb-no",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Poland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["pl-pl",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Russia) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["ru-ru",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(\"Saudi Arabia\") && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["ar-sa",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Spain) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["es-es",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Switzerland) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["fr-fr",
+			"de-de",
+			"it-it",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Sweden) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["sv-se",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Thailand) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["th-th",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && ms.search.region.Contains(Turkey) && ms.search.industry != \"Public sector\"",
+		"priorities": [{
+			"priority": "new_basic",
+			"locales": ["tr-tr",
+			"sr-cyrl-rs"]
+		}]
+	},
+	{
+		"metadataExpression": "audience.Contains(\"Application User\") && (ms.search.region == \"Australia\" || ms.search.region == \"India\" || ms.search.region == \"Ireland\" || ms.search.region == \"Malaysia\" || ms.search.region == \"Singapore\" || ms.search.region == \"United Kingdom\" || ms.search.region == \"United States\" || ms.search.region == \"USA\" || ms.search.industry ==\"Public sector\" )",
+		"priorities": [{
+			"priority": "new-do-not-translate",
+			"locales": ["sr-cyrl-rs"]
+		}]
+	},
+	{
+		"files": ["articles/*.md",
+		"articles/dev-itpro/*.md",
+		"articles/dev-itpro/**/*.md",
+		"articles/fin-and-ops/*.md",
+		"articles/fin-and-ops/**/*.md",
+		"articles/financials/*.md",
+		"articles/financials/**/*.md",
+		"articles/includes/*.md",
+		"articles/retail/*.md",
+		"articles/retail/**/*.md",
+		"articles/supply-chain/*.md",
+		"articles/supply-chain/**/*.md",
+		"articles/talent/*.md",
+		"articles/talent/**/*.md"],
+		"priorities": [{
+			"priority": "new-need-to-investigate",
+			"locales": ["sr-cyrl-rs"]
+		}]
+	}],
+	"autoHandbackNoChangeXliff": true,
+	"includeDependencies": false,
+	"autoPush": true,
+	"xliffVersion": "1.2",
+	"dontDeleteFiles": false,
+	"translationSysFileDestination": "HandbackRepo",
+	"markdownTransformerOptions": {
+		"preset": "CnE"
+	}
+}
