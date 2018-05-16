@@ -1,0 +1,22 @@
+{
+  "LastProcessedCommit": "88f110c28be12bebee0bae614cc59dff378821b9",
+  "LastTansformerVersion": "1.0-89a4962",
+  "LastConfigHash": "2bc3d45e6927854bc55f46f9e75e7a473a019e52",
+  "Items": {
+    "c9a2c453fcb912158bbcf1cefde7da26274938dd": {
+      "FileHash": "c9a2c453fcb912158bbcf1cefde7da26274938dd",
+      "SourceFileCommit": "88f110c28be12bebee0bae614cc59dff378821b9",
+      "SourceFilePath": "articles\\dev-itpro\\includes\\pre-release.md",
+      "HandoffReason": 1,
+      "FilePathList": [
+        "articles\\dev-itpro\\includes\\pre-release.md"
+      ],
+      "TranslationType": 1,
+      "HandoffFilePath": "ol-handoff\\OpenLocalizationTestOrg\\ol-test4-srcyrlrs\\v-yingdh\\developer_premium\\pre-release.78d874c0a7434ea7bcee69376d380b022f935619.sr-cyrl-rs.xlf",
+      "HandoffFileCommit": "1e9b549545450a0197f7129a5dfb8510719392d5",
+      "HandoffDateTime": "2018-05-16T10:22:21.5645355Z",
+      "HandoffXliffHash": "edf88aa2b86936658effad4374fd035f9a0bf98f",
+      "HandoffPriority": "developer_premium"
+    }
+  }
+}
